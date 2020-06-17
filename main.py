@@ -11,14 +11,9 @@ def fizz_buzz(begin, end):
                result.append('fizz')
             else:
                 result.append(str(i))
-        print(' '.join(result))
         return ' '.join(result)
     elif begin == end:
-        print(begin)
         return str(begin)
     else:
-        print('')
         return ''
-     
 # END
-fizz_buzz(7, 7)
